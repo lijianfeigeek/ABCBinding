@@ -170,7 +170,7 @@ import { Binding } from '../ABCKit-lib/abc';
 
 2. 在 iOS 任意.m文件中编写实现，只需要实现`@ABCBinding(FUNCTION)和@end`即可，函数名称编译器会帮助实现；
 
-   ![](http://qiniu.lijianfei.com/uPic/ABCBinding_iOS_Code.gif)
+   ![ABCBinding_iOS_Code](https://raw.githubusercontent.com/lijianfeigeek/PictureBed/main/uPic/ABCBinding_iOS_Code.gif)
 
    ```objc
    @ABCBinding(getHardwareInfo)
