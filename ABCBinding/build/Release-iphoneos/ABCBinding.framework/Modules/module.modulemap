@@ -1,0 +1,6 @@
+framework module ABCBinding {
+  umbrella header "ABCBinding.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ABCBinding_Example' do
+  pod 'ABCBinding', :path => '../'
+
+  target 'ABCBinding_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
